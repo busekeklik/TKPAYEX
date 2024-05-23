@@ -1,4 +1,4 @@
-![image](https://github.com/busekeklik/TKPAYEX/assets/76210283/268fd894-a390-4b70-8303-dd0301347e43)
+
 # My Angular Project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
@@ -103,3 +103,6 @@ ng e2e
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Manuel Flowchart of Some Parts of Project
+![image](https://github.com/busekeklik/TKPAYEX/assets/76210283/268fd894-a390-4b70-8303-dd0301347e43)
