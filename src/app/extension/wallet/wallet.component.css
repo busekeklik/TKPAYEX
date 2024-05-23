@@ -1,0 +1,87 @@
+.wallet-container {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: left;
+  }
+  
+  .wallet-container h2 {
+    color: #070707;
+  }
+  
+  .balance-info {
+    display: flex;
+    justify-content: space-around;
+    margin: 1em 0;
+  }
+  
+  .balance-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .balance-item img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .balance-item p {
+    margin: 0 5px;
+    font-size: 1.2em;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+  }
+  
+  .info-button,
+  .add-money-button {
+    background-color: #d52b1e;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .info-button {
+    background-color: #fff;
+    color: #d52b1e;
+    border: 1px solid #d52b1e;
+  }
+  
+  .info-button:hover,
+  .add-money-button:hover {
+    background-color: #b9231a;
+    color: white;
+  }
+  .credit-options-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.credit-option {
+    background-color: #2B3947; 
+    color: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.bank-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.interest-rate, .monthly-installment {
+    font-size: 16px;
+} 

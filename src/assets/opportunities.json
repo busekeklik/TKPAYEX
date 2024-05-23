@@ -1,0 +1,24 @@
+[
+    {
+      "name": "Mirada Exclusive Bodrum",
+      "location": "Muğla/Bodrum",
+      "rating": 4.8,
+      "review": "Mükemmel",
+      "image": "assets/images/otel1.png"
+    },
+    {
+      "name": "Regnum Carya - The Land of Legends Access",
+      "location": "Antalya/Belek",
+      "rating": 4.7,
+      "review": "Mükemmel",
+      "image": "assets/images/otel2.png"
+    },
+    {
+      "name": "Acapulco Resort Convention & Spa",
+      "location": "Kuzey Kıbrıs/Girne",
+      "rating": 4.6,
+      "review": "Mükemmel",
+      "image": "assets/images/otel3.png"
+    }
+  ]
+  

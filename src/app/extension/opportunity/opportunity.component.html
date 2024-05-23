@@ -1,0 +1,18 @@
+<div class="opportunities-container">
+  <h2>Sana Özel Fırsatlar</h2>
+  <div class="opportunity-list">
+    <div *ngFor="let opportunity of opportunities" class="opportunity-card">
+      <img [src]="opportunity.image" alt="{{ opportunity.name }}">
+      <div class="opportunity-info">
+        <h3>{{ opportunity.name }}</h3>
+        <p>{{ opportunity.location }}</p>
+        <div class="rating">
+          <span>{{ opportunity.rating }}</span>
+          <span>/5</span>
+        </div>
+        <p>{{ opportunity.review }}</p>
+      </div>
+    </div>
+  </div>
+  <button class="more-button" [routerLink]="['/extension/more-opportunities']">Daha fazla fırsat</button>
+</div>

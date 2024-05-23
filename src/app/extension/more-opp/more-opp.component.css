@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #EDEFF2;
+}
+.top-bar {
+    background-color: #2B3947;
+    height: 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.navbar {
+    background-color: #242B38;
+    color: white;
+}
+.navbar a, .navbar a:hover {
+    color: white;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+.navbar-brand img {
+    margin-right: 10px;
+}
+.sign-in-button {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 7px 14px;
+    width: 115px;
+    height: 33px;
+}
+.custom-navbar .nav-link {
+    font-weight: 800;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+.navbar-toggler {
+    border: none;
+    background: none;
+}
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox=\'0 0 30 30\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath stroke=\'rgba(255, 255, 255, 0.5)\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-miterlimit=\'10\' d=\'M4 7h22M4 15h22M4 23h22\'/%3E%3C/svg%3E');
+}
+.navbar-nav {
+    width: 100%;
+    justify-content: flex-end;
+}
+.tk-cuzdan-container {
+    position: absolute;
+    right: 0;
+    top: 100px;  /* Adjust the position under the navbar */
+    width: 550px; /* Increased from 300px to 350px */
+    height: 300px; /* Increased from 200px to 250px */
+    padding: 50px; /* Increased padding for more space inside */
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    margin-top: 50px;
+}
+.tk-cuzdan-table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.tk-cuzdan-table th {
+    text-align: left;
+    padding: 8px;
+}
+.tk-cuzdan-table td {
+    padding: 8px;
+}
+.tk-cuzdan-button {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: #BA000A;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.card {
+    margin-bottom: 10px; /* Reduced space between cards */
+}
+.card-img-top {
+    height: 150px; /* Smaller image height */
+}
+.card-body {
+    padding: 10px; /* Reduced padding */
+}
+.card-title {
+    font-size: 16px; /* Smaller title font size */
+}
+.card-text {
+    font-size: 14px; /* Smaller text font size */
+}
+.btn {
+    padding: 5px 10px; /* Smaller button padding */
+    font-size: 14px; /* Smaller button font size */
+}
+.offer-card {
+    display: flex;
+    background: white;
+    margin: 10px 0;
+    padding: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.offer-card img {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+}
+.offer-details {
+    padding: 10px;
+    width: 60%;
+}
+.offer-details h5 {
+    margin: 0;
+    padding-bottom: 5px;
+    color: #333;
+}
+.offer-details p {
+    margin: 5px 0;
+}
+.price-tag {
+    background: #BA000A;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 5px;
+    width: fit-content;
+    align-self: end;
+    margin-left: auto;
+}
+.btn-view {
+    background: #BA000A;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    display: block;
+    width: fit-content;
+    margin-top: 10px;
+}

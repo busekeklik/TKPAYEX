@@ -1,0 +1,15 @@
+<nav>
+    <a (click)="switchTab('wallet')" [class.active]="currentTab === 'wallet'">TK Cüzdan</a>
+    <a (click)="switchTab('opportunity')" [class.active]="currentTab === 'opportunity'">Fırsatlar</a>
+    <a (click)="switchTab('flight')" [class.active]="currentTab === 'flight'">Uçuş Bilgilerim</a>
+  </nav>
+  <div *ngIf="currentTab === 'wallet'">
+    <app-wallet></app-wallet>
+  </div>
+  <div *ngIf="currentTab === 'opportunity'">
+    <app-opportunity></app-opportunity>
+  </div>
+  <div *ngIf="currentTab === 'flight'">
+    <app-flight></app-flight>
+  </div>
+  

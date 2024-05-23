@@ -1,0 +1,52 @@
+.flight-container {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: left;
+  }
+  
+  .flight-container h2 {
+    color: #000000;
+  }
+  
+  .flight-info {
+    margin: 1em 0;
+  }
+  
+  .flight-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 0;
+  }
+  
+  .flight-item p {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .checkmark {
+    font-size: 1.5em;
+    color: green;
+  }
+  
+  .buttons {
+    margin-top: 1em;
+  }
+  
+  .checkin-button {
+    background-color: #fff;
+    color: #d52b1e;
+    border: 1px solid #d52b1e;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .checkin-button:hover {
+    background-color: #b9231a;
+    color: white;
+  }
+  
